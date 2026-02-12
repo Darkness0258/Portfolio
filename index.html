@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Hamza Nadeem - Software & AI Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Lexend:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">💻</span>
+                <span class="logo-text">Muhammad Hamza Nadeem</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#timeline" class="nav-link">Timeline</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Muhammad Hamza Nadeem</h1>
+            <p class="hero-subtitle">Software & AI Developer</p>
+            <p class="hero-description">
+                Crafting intelligent systems and interactive web tools with AI, creativity, and code
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#projects" class="btn btn-secondary">View My Work</a>
+                <button class="btn btn-sound" id="soundToggle" title="Toggle Sound">
+                    <i class="fas fa-volume-up"></i> Sound
+                </button>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/Darkness0258" target="_blank" class="social-icon" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/muhammad-hamza-nadeem-434879317/" target="_blank" class="social-icon" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://x.com/mham1377" target="_blank" class="social-icon" title="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hero-animation">
+            <div class="hero-image-container">
+                <div class="profile-image-placeholder" id="profileImg">
+                    <img id="userImage" src="" alt="Profile" style="display:none; width:100%; height:100%; border-radius:50%; object-fit:cover;">
+                    <div class="image-content" id="placeholderContent">
+                        <i class="fas fa-code"></i>
+                        <span>Upload Your</span>
+                        <span>Photo Here</span>
+                    </div>
+                    <input type="file" id="imageUpload" accept="image/*" style="display:none;">
+                </div>
+                <div class="floating-cards">
+                    <div class="card card-1">
+                        <i class="fas fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="card card-2">
+                        <i class="fas fa-brain"></i>
+                        <span>AI</span>
+                    </div>
+                    <div class="card card-3">
+                        <i class="fas fa-microphone"></i>
+                        <span>Voice</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a versatile Software and AI Developer with deep expertise in building intelligent systems, 
+                        AI-powered applications, and interactive web tools. With a strong foundation in multiple programming 
+                        languages and frameworks, I specialize in creating voice assistants, chatbots, and solutions that 
+                        leverage cutting-edge AI technologies.
+                    </p>
+                    <p>
+                        My passion lies in merging AI, creativity, and software engineering to develop practical, 
+                        user-friendly tools that make a real impact. I'm driven by continuous learning and staying at 
+                        the forefront of technology trends.
+                    </p>
+                    
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>8</h3>
+                            <p>Certifications</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>Tech Stacks</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="code-illustration">
+                        <div class="code-line">def solve_problem():</div>
+                        <div class="code-line indent">create_ai_solution()</div>
+                        <div class="code-line indent">merge_creativity()</div>
+                        <div class="code-line indent">return success</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-laptop-code"></i> Programming Languages
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C/C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI & Machine Learning -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-brain"></i> AI & ML
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-badge">OpenAI API</div>
+                        <div class="skill-badge">OpenRouter API</div>
+                        <div class="skill-badge">Whisper (Speech-to-Text)</div>
+                        <div class="skill-badge">Text-to-Speech Engines</div>
+                        <div class="skill-badge">Chatbots & Assistants</div>
+                        <div class="skill-badge">Prompt Engineering</div>
+                        <div class="skill-badge">Image Generation</div>
+                    </div>
+                </div>
+
+                <!-- Audio & Voice -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-microphone"></i> Audio & Voice Processing
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-badge">Real-time Speech Recognition</div>
+                        <div class="skill-badge">SoundDevice Library</div>
+                        <div class="skill-badge">SciPy Audio Processing</div>
+                        <div class="skill-badge">Voice Assistant Development</div>
+                        <div class="skill-badge">Audio Streaming</div>
+                    </div>
+                </div>
+
+                <!-- Frameworks & Tools -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i> Frameworks & Tools
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-badge">Pygame</div>
+                        <div class="skill-badge">PyInstaller</div>
+                        <div class="skill-badge">Git/GitHub</div>
+                        <div class="skill-badge">VS Code</div>
+                        <div class="skill-badge">REST APIs</div>
+                        <div class="skill-badge">Web Development</div>
+                    </div>
+                </div>
+
+                <!-- Specializations -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-star"></i> Specializations
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-badge">Voice-Controlled AI Assistants</div>
+                        <div class="skill-badge">Chatbot Development</div>
+                        <div class="skill-badge">Interactive Web Tools</div>
+                        <div class="skill-badge">Desktop Applications</div>
+                        <div class="skill-badge">Game Development</div>
+                        <div class="skill-badge">UI/UX Design</div>
+                    </div>
+                </div>
+
+                <!-- Domains -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-cube"></i> Domains
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-badge">Generative AI</div>
+                        <div class="skill-badge">AWS & Cloud</div>
+                        <div class="skill-badge">Robotics & Arduino</div>
+                        <div class="skill-badge">AI Productivity Tools</div>
+                        <div class="skill-badge">Neural Networks</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-microphone-alt"></i>
+                        <span class="project-badge">AI</span>
+                    </div>
+                    <h3 class="project-title">Voice-Controlled AI Assistant</h3>
+                    <p class="project-description">
+                        Akane is an interactive anime-style virtual assistant designed to engage users with a friendly, cheerful personality. She responds to voice and 
+                        text commands,making interactions fun and intuitive while providing information, guidance, or entertainment in a lively, approachable way..
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Whisper</span>
+                        <span class="tech-tag">OpenAI API</span>
+                        <span class="tech-tag">Audio Processing</span>
+                    </div>
+                    <div class="link">
+                        <a href="https://github.com/Darkness0258/Akane-org." class="link">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-image"></i>
+                        <span class="project-badge">Generative AI</span>
+                    </div>
+                    <h3 class="project-title">AI Image Generation Workflow</h3>
+                    <p class="project-description">
+                        Image enhancement in Python is the process of improving the visual quality of an image using algorithms and processing techniques. 
+                        It helps make images clearer, sharper, brighter, and more detailed for better analysis or presentation.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">OpenRouter API</span>
+                        <span class="tech-tag">Prompt Engineering</span>
+                        <span class="tech-tag">DALL-E</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Darkness0258/IMAGE-ENHANCER." class="project-link">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-globe"></i>
+                        <span class="project-badge">Web</span>
+                    </div>
+                    <h3 class="project-title">Modern Portfolio Website</h3>
+                    <p class="project-description">
+                        This portfolio showcases my work as a Software and AI Developer, focusing on intelligent systems, voice assistants, chatbots, and 
+                        interactive web applications. I specialize in building AI-powered solutions using Python, C/C++, JavaScript, and modern web technologies.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML/CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Web Design</span>
+                        <span class="tech-tag">Responsive</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-comments"></i>
+                        <span class="project-badge">AI</span>
+                    </div>
+                    <h3 class="project-title">Intelligent Chatbot System</h3>
+                    <p class="project-description">
+                        This chatbot system is an AI-powered conversational assistant designed to provide real-time, intelligent responses.
+                        It integrates advanced language models through OpenAI and OpenRouter APIs to deliver accurate, context-aware communication.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">NLP</span>
+                        <span class="tech-tag">APIs</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Darkness0258/Chatbot." class="project-link">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-gamepad"></i>
+                        <span class="project-badge">Games</span>
+                    </div>
+                    <h3 class="project-title">Dark shooter Game </h3>
+                    <p class="project-description">
+                        This project is an action-based fighting and shooting game designed to deliver fast-paced gameplay and immersive combat mechanics.
+                         The game features dynamic character movement, real-time shooting controls, and responsive fighting animations for an engaging player experience.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pygame</span>
+                        <span class="tech-tag">PyInstaller</span>
+                        <span class="tech-tag">Game Logic</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Darkness0258/Dark-Shooter." class="project-link">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-robot"></i>
+                        <span class="project-badge">IoT</span>
+                    </div>
+                    <h3 class="project-title">Arduino & Robotics Projects</h3>
+                    <p class="project-description">
+                        This project is a camera-based system built using Arduino to capture and process visual data for smart applications. 
+                        It integrates a camera module (such as OV7670 or ESP32-CAM) with a microcontroller to capture images, detect motion, or stream video in real time.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C/C++</span>
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag">Embedded Systems</span>
+                        <span class="tech-tag">IoT</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Darkness0258/Arduino-Camera-System" class="project-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications & Learning</h2>
+            
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">🤖</div>
+                    <h3>Generative AI</h3>
+                    <p>Advanced techniques in generative AI and prompt engineering</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🧠</div>
+                    <h3>Neural Networks & Deep Learning</h3>
+                    <p>Deep neural networks, CNN, RNN, and advanced architectures</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">☁️</div>
+                    <h3>Cloud Fundamentals</h3>
+                    <p>Cloud computing basics and infrastructure management</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🎨</div>
+                    <h3>Front-End Development</h3>
+                    <p>Modern web development with HTML, CSS, and JavaScript</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">☁️</div>
+                    <h3>AWS AI</h3>
+                    <p>Amazon Web Services AI and machine learning services</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">⚙️</div>
+                    <h3>Robotics (Arduino)</h3>
+                    <p>Robotics programming and embedded systems with Arduino</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🔧</div>
+                    <h3>Technical Support</h3>
+                    <p>Hardware, software troubleshooting and system administration</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">💼</div>
+                    <h3>Business & AI Productivity</h3>
+                    <p>Business strategy and AI-powered productivity tools</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline" id="timeline">
+        <div class="container">
+            <h2 class="section-title">Experience & Journey</h2>
+            
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>AI & ML Expertise</h3>
+                        <p class="timeline-date">2024 - Present</p>
+                        <p>Specializing in building intelligent systems with OpenAI, voice assistants, and chatbots</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Full Stack Development</h3>
+                        <p class="timeline-date">2023 - Present</p>
+                        <p>Creating responsive web applications and interactive tools with modern frameworks</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Voice & Audio Processing</h3>
+                        <p class="timeline-date">2022 - Present</p>
+                        <p>Advanced audio processing, speech recognition, and real-time voice integration</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Cloud & DevOps</h3>
+                        <p class="timeline-date">2023 - Present</p>
+                        <p>AWS, cloud fundamentals, and structured project workflows with Git</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-subtitle">Have a project in mind or want to collaborate? Get in touch!</p>
+            
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>mhamzanadeem098@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+92 3030604075</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Islamabad, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-link"></i>
+                        <div>
+                            <h4>Social</h4>
+                            <div class="social-links-contact">
+                                <a href="https://github.com/Darkness0258" target="_blank">GitHub</a>
+                                <a href="https://www.linkedin.com/in/muhammad-hamza-nadeem-434879317/" target="_blank">LinkedIn</a>
+                                <a href="https://x.com/mham1377" target="_blank">Twitter</a>
+                                <a href="https://www.youtube.com/@DARKNESSGAMING592" target="_blank">Youtube</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Muhammad Hamza Nadeem. All rights reserved.</p>
+            <p>Built with <span class="heart">❤</span> for creating intelligent solutions</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
